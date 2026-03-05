@@ -9,13 +9,13 @@ import { toast } from "sonner";
 const Contact = () => {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    toast.success("Message sent successfully! (Demo)");
-    setForm({ name: "", email: "", message: "" });
-  };
+const handleSubmit = (e: React.FormEvent) => {
+  e.preventDefault();
+  toast.success("Message sent successfully! (Demo)");
+  setForm({ name: "NARTHANAN", email: "shieldsafety@gmail.com", message: "Hello, I have a question about the SafeGuard AI smartwatch." });
+};
 
-  return (
+return (
     <div className="min-h-screen pt-20">
       <section className="py-24">
         <div className="container mx-auto px-4">
