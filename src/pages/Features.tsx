@@ -3,7 +3,7 @@ import { Shield, Zap, MapPin, Brain, Wifi, Heart, Bell, Cpu, Database, Smartphon
 
 const features = [
   { icon: Brain, title: "AI Threat Detection", desc: "Machine learning algorithms analyze environmental data, crowd behavior, and route patterns to identify potential threats in real-time." },
-  { icon: Shield, title: "Pepper Spray Module", desc: "Micro-canister integrated into the watch band. Activated via quick gesture or app command. 10-foot range, 15+ uses per cartridge." },
+  { icon: Shield, title:"High-Intensity Flash Light", desc:  "Powerful LED integrated into the watch face. Emits blinding light to temporarily disorient attackers. Activated via quick gesture or app command. Compact design with rechargeable battery support." },
   { icon: Zap, title: "Electric Shock Deterrent", desc: "Low-amperage, high-voltage shock module for close-contact defense. Activated via double-press of side button." },
   { icon: MapPin, title: "GPS Live Tracking", desc: "Real-time location sharing with trusted contacts. Geofencing alerts when entering or leaving safe zones." },
   { icon: Bell, title: "SOS Emergency Alerts", desc: "One-touch SOS sends location, audio recording, and distress signal to emergency contacts and nearest authorities." },
