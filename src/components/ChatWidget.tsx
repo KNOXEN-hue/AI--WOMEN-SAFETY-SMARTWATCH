@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 const botResponses = [
   "I'm your SafeGuard AI assistant! I can help with safety tips and product info.",
-  "Our smartwatch features pepper spray, electric shock, and GPS tracking for your safety.",
+  "Our smartwatch features High-Intensity Flash Light, electric shock, and GPS tracking for your safety.",
   "In an emergency, press the SOS button on your SafeGuard watch to alert authorities and contacts.",
   "The AI system monitors your surroundings and alerts you to potential threats in real-time.",
   "You can customize emergency contacts and safe zones in the SafeGuard app.",
