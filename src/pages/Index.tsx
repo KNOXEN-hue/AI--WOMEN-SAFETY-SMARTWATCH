@@ -7,7 +7,7 @@ import productImg from "@/assets/product-smartwatch.jpg";
 import { useCart } from "@/hooks/useCart";
 
 const features = [
-  { icon: Shield, title: "Pepper Spray Module", desc: "Compact, wrist-activated pepper spray for instant defense." },
+  { icon: Shield, title:  "LED Flash Light Module", desc: "Powerful LED integrated into the watch face. Emits blinding light to temporarily disorient attackers. Activated via quick gesture or app command. Compact design with rechargeable battery support." },
   { icon: Zap, title: "Electric Shock", desc: "Non-lethal electric deterrent activated with a button press." },
   { icon: Brain, title: "AI Threat Detection", desc: "Real-time AI monitoring detects unsafe environments." },
   { icon: MapPin, title: "GPS Live Tracking", desc: "Share your live location with trusted contacts instantly." },
@@ -15,7 +15,7 @@ const features = [
 
 const testimonials = [
   { name: "Priya S.", role: "Daily Commuter", text: "SafeGuard has completely changed how I feel during late-night commutes. The AI alerts warned me about an unsafe route before I even noticed.", rating: 5 },
-  { name: "Ananya R.", role: "College Student", text: "I feel so much more confident walking to my hostel at night. The SOS feature is a lifesaver — literally!", rating: 5 },
+  { name: "Ananya S.", role: "College Student", text: "I feel so much more confident walking to my hostel at night. The SOS feature is a lifesaver — literally!", rating: 5 },
   { name: "Meera K.", role: "Working Professional", text: "The GPS tracking gives my family peace of mind. Best investment for my safety.", rating: 5 },
 ];
 
@@ -42,7 +42,7 @@ const Index = () => {
                 <span className="text-gradient">Your Wrist</span>
               </h1>
               <p className="text-lg text-muted-foreground mb-8 max-w-lg">
-                The world's first AI-powered safety smartwatch with inbuilt pepper spray, electric shock module, and real-time threat detection for women commuters.
+                The world's first AI-powered safety smartwatch with inbuilt LED Flash Light Module, electric shock module, and real-time threat detection for women commuters.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button size="lg" className="gradient-primary text-primary-foreground border-0 hover:opacity-90 shadow-glow" asChild>
@@ -107,7 +107,7 @@ const Index = () => {
               <h2 className="text-3xl md:text-4xl font-display font-bold mb-4">SafeGuard AI <span className="text-gradient">Pro Watch</span></h2>
               <p className="text-muted-foreground mb-6">Your personal safety companion equipped with cutting-edge AI technology and physical defense mechanisms.</p>
               <ul className="space-y-3 mb-8">
-                {["Inbuilt pepper spray canister", "Electric shock module (non-lethal)", "AI-powered threat detection", "Real-time GPS tracking", "SOS emergency alerts", "Heart rate & stress monitoring"].map((f) => (
+                {["Inbuilt LED Flash Light Module", "Electric shock module (non-lethal)", "AI-powered threat detection", "Real-time GPS tracking", "SOS emergency alerts", "Heart rate & stress monitoring"].map((f) => (
                   <li key={f} className="flex items-center gap-3 text-sm text-foreground">
                     <Shield className="h-4 w-4 text-primary flex-shrink-0" /> {f}
                   </li>

@@ -1,5 +1,12 @@
 {
-  "style": "default",
+  "style": {
+  "json.schemas": [
+    {
+      "fileMatch": ["components.json"],
+      "url": "https://ui.shadcn.com/schema.json"
+    }
+  ]
+},
   "rsc": false,
   "tsx": true,
   "tailwind": {

@@ -7,7 +7,7 @@ import { toast } from "sonner";
 
 const products = [
   { id: "safeguard-lite", name: "SafeGuard Lite", price: 2000, originalPrice: 5999, desc: "Essential safety features for everyday protection.", features: ["GPS Tracking", "SOS Alerts", "Heart Rate Monitor", "Bluetooth Connectivity"] },
-  { id: "safeguard-pro", name: "SafeGuard AI Pro", price: 4000, originalPrice: 9999, desc: "Complete safety suite with AI and defense modules.", features: ["Everything in Lite", "High-Intensity Flash Light", "Electric Shock", "AI Threat Detection", "4G LTE"], badge: "Best Seller" },
+  { id: "safeguard-pro", name: "SafeGuard AI Pro", price: 4000, originalPrice: 9999, desc: "Complete safety suite with AI and defense modules.", features: ["Everything in Lite", "LED Flash Light Module", "Electric Shock", "AI Threat Detection", "4G LTE"], badge: "Best Seller" },
   { id: "safeguard-ultra", name: "SafeGuard Ultra", price: 6000, originalPrice: 14999, desc: "Premium edition with advanced AI and extended battery.", features: ["Everything in Pro", "Facial Recognition", "Voice Activation", "7-day Battery", "Titanium Build"] },
 ];
 
@@ -86,7 +86,7 @@ const Shop = () => {
                       { feature: "SOS Alerts", lite: true, pro: true, ultra: true },
                       { feature: "Heart Rate Monitor", lite: true, pro: true, ultra: true },
                       { feature: "Bluetooth", lite: true, pro: true, ultra: true },
-                      { feature: "High-Intensity Flash Light", lite: false, pro: true, ultra: true },
+                      { feature: "LED Flash Light Module", lite: false, pro: true, ultra: true },
                       { feature: "Electric Shock", lite: false, pro: true, ultra: true },
                       { feature: "AI Threat Detection", lite: false, pro: true, ultra: true },
                       { feature: "4G LTE", lite: false, pro: true, ultra: true },
